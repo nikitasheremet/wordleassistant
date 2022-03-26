@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <script>
+      //   fetch(
+      //     "https://raw.githubusercontent.com/jpowell96/readFilesWithFetch/master/example.txt"
+      //   )
+      //     .then((response) => {
+      //       response.text();
+      //     })
+      //     .then((data) => console.log(data));
+      fetch(
+        "https://raw.githubusercontent.com/dwyl/english-words/master/words.txt"
+      )
+        .then((response) => response.text())
+        .then((commits) => console.log(commits));
+    </script>
+  </body>
+</html>
